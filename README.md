@@ -1,31 +1,20 @@
-# AARKIVO — Documentação do Produto
+# AARKIVO — Documentação de Produto
 
-Repositório dedicado à documentação **interna e pública** do AARKIVO, com separação explícita entre registros históricos de desenvolvimento e documentação vigente do produto.
+Repositório dedicado exclusivamente à documentação de produto do AARKIVO.
 
-## Navegação
+## Escopo
 
-- **[Documentação do produto](docs/README.md)** — plano de reconciliação, critérios de verificação e futura documentação consolidada de negócio, processos, requisitos, solução e operação.
-- **[Acervo histórico](historico/README.md)** — cópia preservada das especificações e evidências elaboradas durante o desenvolvimento assistido por IA no repositório de aplicação.
-- **Documentação para usuários:** será construída **após** a reconciliação funcional e publicada posteriormente em [docs.aarkivo.com](https://docs.aarkivo.com/).
+Aqui serão mantidos apenas documentos correspondentes ao acervo **Produtos** definido no projeto de origem. Especificações técnicas de execução, tarefas, evidências, runbooks, auditorias operacionais e materiais de outros diretórios permanecerão no [repositório da aplicação](https://github.com/jukazilli/oplib).
 
-## Estado documental
+A documentação de produto será reconciliada com o código, os testes e o histórico real antes de ser considerada vigente. Especificações anteriores não comprovam, por si, funcionalidades implementadas.
 
-**Migração inicial e reconciliação em andamento.** Os documentos arquivados não devem ser tratados automaticamente como a descrição do produto em operação. Uma decisão antiga pode estar substituída; uma funcionalidade planejada pode não ter sido implementada. O código, os testes, as versões e as evidências precisam ser confrontados antes de promover qualquer especificação a referência vigente.
+## Estado
 
-## Repositórios e ambientes
+**Estrutura inicial criada; migração de conteúdo ainda não realizada.** A localização exata da pasta de origem denominada «Produtos» precisa ser confirmada: ela não aparece na árvore da branch `main` de `jukazilli/oplib` consultada em 2026-10-12. Nenhuma pasta semelhante será presumida.
 
-- [AARKIVO — aplicação e histórico de engenharia](https://github.com/jukazilli/oplib)
-- [AARKIVO — documentação](https://github.com/jukazilli/aarkivo-docs)
-- [Aplicação](https://app.aarkivo.com/)
-- [Central de ajuda para usuários](https://docs.aarkivo.com/) — destino previsto; conteúdo editorial pendente de elaboração e publicação.
+A central pública de ajuda, planejada para [docs.aarkivo.com](https://docs.aarkivo.com/), será estruturada depois da reconciliação da documentação interna do produto.
 
-## Critérios de confiabilidade
+## Projetos relacionados
 
-1. Diferenciar **briefing**, **necessidade**, **decisão**, **requisito**, **execução**, **validação** e **comportamento observado**.
-2. Registrar a origem de decisões e as versões de código que sustentam cada afirmação.
-3. Preservar o histórico sem reescrever fatos ou atribuir datas retroativas.
-4. Distinguir requisito **planejado**, implementação **no código**, comportamento **testado** e funcionalidade **validada em produção**.
-5. Não apresentar entrevistas com usuários, validações ou resultados que não tenham ocorrido.
-6. Separar referências para equipe de desenvolvimento dos futuros tutoriais voltados ao público.
-
-Este repositório não contém o código-fonte da aplicação. O acervo histórico copiado continua disponível também no [repositório original](https://github.com/jukazilli/oplib/tree/main/docs).
+- [Repositório da aplicação](https://github.com/jukazilli/oplib)
+- [Portal do AARKIVO](https://app.aarkivo.com/)
