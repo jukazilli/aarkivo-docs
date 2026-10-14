@@ -17,6 +17,8 @@ O código, as decisões técnicas, as evidências e o pipeline de produção fic
 
 ## Travas
 
+Para o MVP, o briefing público registra a direção multiusuário vigente. Issues públicas contêm objetivo, resultado esperado, dependências, critérios de aceite e vínculo com o contrato privado. Planos detalhados, comandos, tarefas de execução e evidências não devem ser adicionados como arquivos deste repositório; armazená-los no `oplib`. Mudança de direção exige revisão dos documentos finais afetados, mantendo explícita a diferença entre intenção aprovada e capacidade validada. O executor não encerra sua própria issue nem usa fechamento automático pela PR antes do aceite independente.
+
 1. Antes de afirmar algo sobre o sistema, verifique no `oplib` (arquivo e linha, teste ou resposta HTTP). Se não verificou, escreva "não verificado".
 2. Antes de abrir uma issue, procure duplicatas aqui e nos PRs abertos do `oplib`. Comente na existente em vez de criar outra.
 3. Uma issue é um pedido de trabalho, não uma decisão. Decisões aprovadas ficam em `docs/decisions/` no `oplib`.

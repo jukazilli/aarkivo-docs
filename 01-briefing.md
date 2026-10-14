@@ -2,9 +2,9 @@
 document_id: AAR-PROD-001
 title: Briefing do produto AARKIVO
 status: em-revisao
-version: 0.1.0
+version: 0.2.0
 created_at: 2026-10-12
-last_updated_at: 2026-10-12
+last_updated_at: 2026-10-14
 baseline_code: 20d852e11d423ae8560d5eb97242a00687b33e99
 information_sources:
   - SRC-OWNER
@@ -17,8 +17,19 @@ information_sources:
 ## 1. Identidade
 
 **Produto:** AARKIVO.  
-**Categoria:** plataforma de criação, organização, publicação e descoberta de conhecimento.  
-**Proposta central:** transformar materiais de estudo, artigos, pesquisas e produções autorais em um acervo digital estruturado, pesquisável e compartilhável.
+**Categoria:** rede social de conhecimento e aprendizado ao longo da vida.
+
+**Proposta central:** permitir que pessoas criem conta para publicar e compartilhar o que aprenderam na universidade, no trabalho e ao longo da vida, mantendo autoria e um acervo pesquisável.
+
+### Direção vigente do MVP — 14/10/2026
+
+A direção definida pelo proprietário é **multiusuário**: cada membro pode ser autor e administrar suas próprias publicações. O produto deixou de ser um repositório pessoal de autor único. Administradores cuidam da rede sob permissões explícitas; sua função não os torna autores dos materiais de outros membros.
+
+A leitura pública dispensa conta. Publicar, curtir, comentar e responder requer identidade autenticada. A experiência prioriza texto e leitura atenta, com imagens como apoio. O feed deve permitir descobrir conteúdo e voltar à posição de leitura, sem depender de recomendação personalizada ainda não comprovada.
+
+Esta seção registra **direção de produto autorizada**, não aprovação técnica ou anúncio de que todos os fluxos estão homologados. A baseline indicada no cabeçalho descreve a origem documental anterior; o estado de cada capacidade deve ser confirmado no catálogo e em sua versão aceita.
+
+O corte concentra cadastro/entrada e perfil, autoria individual, rascunho e publicação, descoberta e leitura, interações autenticadas, privacidade e moderação essenciais. Coautoria simultânea, CRDT, percursos de estudo, recomendação personalizada e certificação bibliográfica automática permanecem hipóteses ou itens fora do corte até decisão explícita.
 
 ## 2. Contexto e motivação
 
