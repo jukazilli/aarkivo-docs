@@ -15,6 +15,8 @@ information_sources:
 
 ## 1. Finalidade e leitura
 
+**Revisão de direção em 14/10/2026:** prevalece o [briefing multiusuário](01-briefing.md). A origem de implementação indicada no cabeçalho é histórica. Este catálogo não recebeu novo aceite integrado ou de produção por esta revisão documental. As capacidades abaixo precisam registrar a versão aceita ao concluir a remediação; presença de código não comprova disponibilidade, integridade ou desempenho.
+
 Inventariar os módulos e recursos identificáveis na aplicação, suas superfícies e principais limites. Os itens deste catálogo foram **localizados no código da versão referenciada**; a efetiva liberação em produção requer confirmação do deploy e testes associados.
 
 **Categorias de constatação:**

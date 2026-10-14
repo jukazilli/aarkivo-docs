@@ -16,6 +16,17 @@ information_sources:
 
 ## 1. Objetivo e interpretação
 
+**Direção vigente em 14/10/2026:** aplicar o [briefing multiusuário](01-briefing.md). Os requisitos expressam o contrato esperado; o campo de baseline preserva a origem documental anterior e não certifica o estado atual. Critério só recebe aceite quando validado no fluxo ativo e na versão identificada.
+
+### Condições transversais do MVP
+
+- Cada membro administra sua própria autoria; privilégio administrativo tem finalidade e autorização distintas.
+- Privacidade considera texto, metadados e arquivos, segundo a política aprovada; estados de acesso precisam ser compreensíveis ao usuário.
+- Publicação retirada deve ter caminho acessível de recuperação quando elegível; moderação não pode ser confundida com decisão voluntária do autor.
+- Feed textual carrega resumos e permite leitura completa sob demanda. Paginação, falhas e retorno à posição devem preservar continuidade e interações confirmadas.
+- Custos e desempenho precisam de verificação sob condições representativas; volume de código ou quantidade de testes não comprova qualidade de experiência.
+- Exportação, mídia no corpo e classificação temática precisam ter limites explícitos no catálogo. Decisão pendente não autoriza apresentar capacidade como homologada.
+
 Este documento define **o que o sistema deve oferecer e como deve responder** às ações descritas na [análise de negócios](02-analise-de-negocios.md). Os critérios de aceite são condições verificáveis e não certificam, por si sós, que testes tenham sido executados. A implementação existente foi utilizada para estabelecer esta base; alterações de regra dependem de revisão do responsável pelo produto.
 
 **Status do documento:** em revisão, com contrato extraído do código da versão indicada no cabeçalho.

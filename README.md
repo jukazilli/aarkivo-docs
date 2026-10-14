@@ -4,6 +4,8 @@ A documentação de produto reúne a definição do problema, os processos, os r
 
 ## Estrutura de leitura
 
+A direção vigente é uma **rede multiusuário para compartilhar conhecimento adquirido na universidade e ao longo da vida**, com leitura pública, autoria individual e participação autenticada. Consulte primeiro o [briefing, direção de 14/10/2026](01-briefing.md). Definições históricas de autor único não governam o MVP atual.
+
 | Ordem | Documento | Pergunta que responde |
 | --- | --- | --- |
 | 01 | [Briefing de produto e escopo](01-briefing.md) | Qual problema o AARKIVO resolve e para quem? |
@@ -42,6 +44,10 @@ A descrição de capacidade **implementada no código** não equivale automatica
 | Superfícies e capacidades | [Catálogo funcional](08-catalogo-funcional.md) |
 
 ## Registro histórico e documentação de execução
+
+**Fronteira obrigatória:** issues e documentação final de produto vivem neste repositório. Contratos de execução, planos, instruções técnicas, decisões de implementação, diagnósticos e evidências ficam no `jukazilli/oplib` privado. Cada issue deve apontar para o contrato privado aplicável, sem copiar detalhes de vulnerabilidades abertas.
+
+Mudanças de direção aprovadas pelo proprietário devem atualizar briefing, regras, jornadas e catálogo afetados. A atualização final exige revisão humana; não publicar documentação como reflexo automático de um merge ou de uma afirmação do executor. Uma capacidade implementada, validada em Preview e verificada em produção tem estados diferentes.
 
 O conteúdo usado para orientar o desenvolvimento, os registros de decisões, tarefas, evidências, testes e runbooks continuam preservados no [acervo documental](https://github.com/jukazilli/oplib/blob/393f22ab4fa81547bcb6a9db6b5b47c44b4da1aa/docs/README.md). A documentação principal descreve o contrato do produto; os arquivos históricos fornecem proveniência e explicações de decisões quando for necessário investigá-las.
 
